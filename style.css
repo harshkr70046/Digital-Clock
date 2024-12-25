@@ -59,3 +59,18 @@ body{
     bottom: .8%;
     font-size: 1.5rem;
 }
+@media (width <= 780px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media (width <= 600px) {
+    html{
+        font-size: 35%;
+    }
+}
+@media (width <= 420px) {
+    html{
+        font-size: 25%;
+    }
+}
